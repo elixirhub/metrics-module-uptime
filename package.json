@@ -1,0 +1,18 @@
+{
+  "name": "metrics-module-uptime",
+  "version": "0.1.0",
+  "description": "This metric measures a website uptime (server, site to download). If the website is up or down it is counted",
+  "author": "TGAC-EBI",
+  "contributors": [{"name": "Haydee Artaza, Rafael Girado","email": "haydee.artaza@tgac.ac.uk,rafael.jimenez@elixir-europe.org"}],
+  "keywords": [
+	  "metrics",
+	  "uptime"
+	],
+	"private": true,
+	"dependencies": {
+		"ping-monitor": "latest"
+  },
+  "subdomain": "metrics",
+  "analyze": true,
+  "license": "TGAC"
+}
